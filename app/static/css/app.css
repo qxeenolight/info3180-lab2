@@ -1,3 +1,100 @@
+/* ---------Display------------- */
 body {
     padding-top: 5rem;
+    margin: 0 auto;
+    width: 760px;
+}
+
+.holder {
+    font-size: 20px;
+    border-radius: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.top{ 
+    background: linear-gradient(135deg, #933061, #651247, #800080);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    padding-bottom: 20px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ---------General------------- */
+h2 {
+    margin-top: 8px;
+    font-size: 48px;
+}
+
+p {
+    margin: 2px;
+    text-align: center;
+}
+
+
+/* -----------About------------- */
+.about-me{
+    margin: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: grey;
+}
+
+
+/* ---------Statistic----------- */
+.statistics{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+}
+
+.stat p{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    color: grey;
+}
+
+.stat .style {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+
+/* ----------Button------------- */
+.btn{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #933061, #651247, #800080);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    color: white;
 }

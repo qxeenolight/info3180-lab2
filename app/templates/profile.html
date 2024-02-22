@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="holder">
+
+    <div class = "top section">
+        
+        <div class = "display">
+            <img src="{{ url_for('static', filename='image.jpeg') }}" alt="Your Image">
+        </div>
+        <h2>{{name}}</h2>
+        <p>{{socials}}</p>
+        <p>{{address}}</p>
+        <p>{{join_date}}</p>
+    </div>
+
+    <div class = "bottom section">
+    
+        <div class = "about-me">
+            <p>I am a member of the League of Villains, a group dedicated to creating 
+                a society where people can freely use their quirks without limitations. I am well known 
+                for my cheerful and innocent demeanor, but people think I use it to mask some sort of 
+                sadistic and twisted personality. Follow Me and Let's be friends!!
+            </p>
+        </div>
+        
+        <div class="statistics">
+            <div class = "stat">
+                <p class="style">66</p>
+                <p>Post</p>
+            </div>
+
+            <div class = "stat">
+                <p class="style">2</p>
+                <p>Following</p>
+            </div>
+
+            <div class = "stat">
+                <p class="style">20,079</p>
+                <p>Followers</p>
+            </div>
+        </div>
+
+        <button type="button" class="btn">Follow</button>
+    </div>
+</div>
+
+{% endblock %}
